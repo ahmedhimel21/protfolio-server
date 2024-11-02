@@ -7,6 +7,11 @@ const skillSchema = new Schema<TSkill>(
       type: String,
       required: true,
     },
+    category: {
+      type: String,
+      enum: ['FRONTEND', 'BACKEND', 'OTHERS'],
+      required: true,
+    },
     title: {
       type: String,
       required: true,
