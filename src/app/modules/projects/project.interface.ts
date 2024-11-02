@@ -5,4 +5,5 @@ export type TProject = {
   github: string
   liveLink: string
   category: 'MERN' | 'REACT' | 'JAVASCRIPT'
+  skills: string[]
 }

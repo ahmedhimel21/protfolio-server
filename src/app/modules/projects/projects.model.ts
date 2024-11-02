@@ -28,6 +28,10 @@ const projectSchema = new Schema<TProject>(
       enum: ['MERN', 'REACT', 'JAVASCRIPT'],
       required: true,
     },
+    skills: {
+      type: [String],
+      required: true,
+    },
   },
   {
     timestamps: true,
