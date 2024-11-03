@@ -7,4 +7,6 @@ router.post('/create-blog', BlogController.createBlog)
 
 router.get('/', BlogController.getBlog)
 
+router.get('/:id', BlogController.getSingleBlog)
+
 export const BlogRoutes = router
